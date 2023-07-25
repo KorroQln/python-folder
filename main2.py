@@ -1,19 +1,19 @@
 id_mapping = {
-    "IAM": None,
-        "Identity": None,
-        "Access": None,
-        "Credential Management": None,
-    "Data Protection": None,
-        "Data Storage": None,
-        "Data Communication": None,
-        "Data Retention": None,
-        "Data Processing": None,
-    "Electronic Mail": None,
-    "Miscellany": None
+    "PARENT1": None,
+        "child1": None,
+        "child2": None,
+        "child3": None,
+    "PARENT2": None,
+        "child3": None,
+        "child4": None,
+        "child5": None,
+        "child6": None,
+    "PARENT3": None,
+    "PARENT4": None
 }
 
 idResp = 123
-nameMap = "Miscellany"
+nameMap = "PARENT1"
 
 for item in id_mapping:
     if item == nameMap:

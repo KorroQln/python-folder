@@ -1,0 +1,34 @@
+{
+    "folder": [
+      {
+        "id": "1",
+        "name": "IAM",
+        "subfolder": [
+          { "id": "11", "name": "Identity" },
+          { "id": "111", "name": "Access" },
+          { "id": "1111", "name": "Credential Management" }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Data Protection",
+        "subfolder": [
+          { "id": "22", "name": "Data Storage" },
+          { "id": "222", "name": "Data Communication" },
+          { "id": "2222", "name": "Data Retention" },
+          { "id": "22222", "name": "Data Processing" }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Electronic Mail",
+        "subfolder": []
+      },
+      {
+        "id": "4",
+        "name": "Miscellany",
+        "subfolder": []
+      }
+    ]
+  }
+  

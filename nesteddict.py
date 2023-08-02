@@ -45,3 +45,15 @@ folder_structure['parent_folder2']['subfolders']['subfolder2'] = {'id': 203}
 
 # Printing the updated folder structure
 print(folder_structure)
+
+# Updating IDs of every parent folder
+new_parent_ids = [10, 20, 30, 40]
+parent_folders = list(folder_structure.keys())
+
+for i, parent_folder in enumerate(parent_folders):
+    folder_structure[parent_folder]['id'] = new_parent_ids[i]
+
+# Printing the updated folder structure
+print(folder_structure)
+
+# MAPPING ID MUSH EASIER
